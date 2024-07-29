@@ -1,0 +1,56 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+h6,.h6 {
+  text-align: center;
+  color: #000000;
+  text-shadow: 0 0 5px #61dafb, 0 0 10px #cf3737, 0 0 15px #d1f531, 0 0 20px #26df16, 0 0 30px #61dafb, 0 0 40px #61dafb;
+  animation: glow 2s ease-in-out infinite alternate;
+}
+
+@keyframes glow {
+  0% {
+    text-shadow: 0 0 5px #61dafb, 0 0 10px #61dafb, 0 0 15px #61dafb, 0 0 20px #61dafb, 0 0 30px #61dafb, 0 0 40px #61dafb;
+  }
+  50% {
+    text-shadow: 0 0 10px #61dafb, 0 0 20px #6aee42, 0 0 30px #61dafb, 0 0 40px #fc430b, 0 0 50px #61dafb, 0 0 60px #61dafb;
+  }
+  100% {
+    text-shadow: 0 0 5px #61dafb, 0 0 10px #61dafb, 0 0 15px #ec965d, 0 0 20px #61dafb, 0 0 30px #61dafb, 0 0 40px #61dafb;
+  }
+}
