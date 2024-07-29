@@ -16,7 +16,8 @@
     "react-native-vlc-media-player": "^1.0.67",
     "react-scripts": "^5.0.1",
     "reactstrap": "^8.5.1",
-    "styled-components": "^5.1.1"
+    "styled-components": "^5.1.1",
+    "punycode" : "^2.1.1"
   },
   "scripts": {
     "start": "react-scripts start",
