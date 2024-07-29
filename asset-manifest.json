@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/ursownjj/sort-cart.git/static/css/main.ab2a9a3b.css",
+    "main.js": "/ursownjj/sort-cart.git/static/js/main.3a3f3b22.js",
+    "index.html": "/ursownjj/sort-cart.git/index.html",
+    "main.ab2a9a3b.css.map": "/ursownjj/sort-cart.git/static/css/main.ab2a9a3b.css.map",
+    "main.3a3f3b22.js.map": "/ursownjj/sort-cart.git/static/js/main.3a3f3b22.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ab2a9a3b.css",
+    "static/js/main.3a3f3b22.js"
+  ]
+}
